@@ -1,0 +1,266 @@
+@media screen and (max-width: 479px){
+    footer .footer-head, 
+    footer .footer-bottom {
+        justify-content: center !important;
+        text-align: center;
+    }
+    footer .footer-head {
+        gap: 30px;
+    }
+    .join-social > a {
+        height: 50px;
+        width: 50px;
+    }
+    .join-social > a > svg, 
+    .join-social > a > img {
+        width: 24px;
+        height: 24px;
+    }
+}
+@media screen and (max-width: 575px){
+    .tokenomics-main {
+        justify-content: center !important;
+    }
+    .l-tokenomics, 
+    .r-tokenomics {
+        width: 100%;
+    }
+    .l-tokenomics > .te-card, 
+    .r-tokenomics > .te-card {
+        margin: 0px auto 10px !important;
+    }
+   
+}
+@media screen and (max-width: 767px) and (min-width: 480px){
+    .join-social > a {
+        height: 60px;
+        width: 60px;
+    }
+    .join-social > a > svg, 
+    .join-social > a > img {
+        width: 28px;
+        height: 28px;
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 575px){
+    .page-title h2 {
+        font-size: 40px;
+    }
+    body .about {
+        background-size: cover;
+        padding: 200px 0px 40px;
+    }
+    body .about-intro .page-title h2, 
+    body .r-card h3 {
+        font-size: 26px;
+    }
+    .tokenomics-main {
+        display: block !important;
+    }
+    .tokenomics-main > .l-tokenomics, .tokenomics-main > .r-tokenomics {
+        display: flex;
+        gap: 10px;
+    }
+    .l-tokenomics > .te-card, .r-tokenomics > .te-card {
+        width: 50%;
+        margin-bottom: 10px !important;
+    }
+    /*.t-content > p {
+        max-width: 150px;
+    }*/
+}
+@media screen and (max-width: 767px){
+    .page-background,
+    .page-paddings {
+        padding: 80px 0px;
+    }
+    .page-bg {
+        padding: 120px 0px;
+    }
+    .d-flex {
+        flex-wrap: wrap;
+    }
+    header,
+    .hero,
+    .roadmap-title {
+        display: none;
+    }
+    .main-sec {
+        padding-top: 0px;
+    }
+    .hero {
+        padding: 80px 0px;
+    }
+    .marquee .animation-i {
+        flex-wrap: nowrap;
+    }
+    .about {
+        padding: 150px 0px 0px;
+        margin-top: -20px;
+        background-size: contain;
+        background-position: top center;
+    }
+    .roadmap-right {
+        padding-left: 0px;
+    }
+    .r-card.i-card {
+        margin-left: 0px;
+    }
+    .page-title h2 {
+        font-size: 32px;
+    }
+    .prominent-box,
+    .about-card {
+        padding: 30px;
+    }
+    .prominent-box > h3,
+    .btn.btn-primary,
+    .r-card > ul > li > .yellow-text, 
+    .prominent-box > h3 > span {
+        font-size: 18px;
+    }
+    .about-intro .page-title h2,
+    .r-card h3 {
+        font-size: 22px;
+    }
+    .about-intro .page-title {
+        margin-bottom: 15px;
+    }
+    .r-card {
+        padding: 100px 30px 30px;
+    }
+    .te-card {
+        border-radius: 15px !important;
+        padding: 30px;
+        height: auto;
+        margin-bottom: 30px !important;
+    }
+    .i-tokenomics {
+        display: none;
+    }
+    .t-content > span {
+        font-size: 44px;
+    }
+    .team .coin img {
+        max-width: 150px;
+    }
+}
+@media screen and (max-width: 991px){
+    
+}
+@media screen and (max-width: 991px) and (min-width: 768px){
+    .page-title h2,
+    .about-intro .page-title h2 {
+        font-size: 38px;
+    }
+    .main-sec {
+        padding-top: 78px;
+    }
+    header {
+        padding: 10px 0px;
+    }
+    .buy-btn .btn.btn-primary {
+        padding: 15px 30px;
+    }
+    .h-main .logo {
+        margin-bottom: -70px;
+    }
+    header.fixed-header .h-main .logo {
+        margin-top: -70px;
+    }
+    .logo img {
+        max-width: 100px;
+    }
+   .hero {
+        padding: 60px 0px;
+   }
+   .join-contract .form-control {
+        font-size: 20px;
+    }
+    .join-contract .form-group {
+        padding: 28px 130px 28px 20px;
+    }
+    .join-contract .btn.btn-primary {
+        padding: 10px 15px;
+    }
+    .join-social > a {
+        height: 60px;
+        width: 60px;
+    }
+    .join-social > a > svg, 
+    .join-social > a > img {
+        height: 28px;
+        width: 28px;
+    }
+    .join-btn {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .join-btn .btn.btn-primary {
+        width: calc(50% - 9px);
+        font-size: 15px;
+    }
+    .supported img {
+        max-width: 360px;
+    }
+    .prominent-box {
+        padding: 20px;
+    }
+    .prominent-box > h3 {
+        font-size: 16px;
+    }
+    .r-card.i-card {
+        margin-left: 35px;
+    }
+    .tokenomics-main {
+        gap: 20px;
+    }
+    .tokenomics-main > div {
+        width: 50%;
+    }
+    .i-tokenomics {
+        display: none;
+    }
+    .l-tokenomics > .te-card, 
+    .r-tokenomics > .te-card {
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 1600px) and (min-width: 992px){
+    .page-title h2,
+    .about-intro .page-title h2 {
+        font-size: 42px;
+    }
+    .hero {
+        padding: 80px 0px;
+    }
+    .h-menu .navbar-nav .nav-link {
+        font-size: 18px;
+        margin-right: 30px;
+    }
+    .join-contract .form-control {
+        font-size: 20px;
+    }
+    .join-btn {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .join-btn .btn.btn-primary {
+        width: calc(50% - 9px);
+    }
+    .join-social > a {
+        height: 70px;
+        width: 70px;
+    }
+    .join-social > a > svg, 
+    .join-social > a > img {
+        width: 34px;
+        height: 34px;
+    }
+    .prominent-box > h3 {
+        font-size: 24px;
+    }
+    .te-card {
+        padding: 24px 15px;
+    }
+}

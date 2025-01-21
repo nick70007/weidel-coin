@@ -1,0 +1,552 @@
+@media screen and (max-width: 479px){
+    .hero-media img {
+        max-width: 300px;
+    }
+    .hero-media .h-text {
+        bottom: 62px;
+        font-size: 10px;
+        max-width: 70px;
+    }
+    footer .footer-head, 
+    footer .footer-bottom {
+        justify-content: center !important;
+        text-align: center;
+    }
+    footer .footer-head {
+        gap: 30px;
+    }
+    .join-social > a {
+        height: 50px;
+        width: 50px;
+    }
+    .join-social > a > svg, 
+    .join-social > a > img {
+        width: 24px;
+        height: 24px;
+    }
+    .faq-media img {
+        max-width: 260px !important;
+    }
+    .copyright > p {
+        font-size: 15px;
+    }
+    .supported img {
+        max-width: 300px;
+    }
+    .supported > span > .s-text {
+        font-size: 11px;
+        max-width: 140px;
+        top: 58px;
+        left: 26px;
+    }
+}
+@media screen and (max-width: 575px){
+    .page-title h2 {
+        font-size: 32px;
+    }
+    body .main-sec {
+        padding-top: 70px;
+    }
+    .tokenomics-main {
+        justify-content: center !important;
+    }
+    .l-tokenomics, 
+    .r-tokenomics {
+        width: 100%;
+    }
+    .l-tokenomics > .te-card, 
+    .r-tokenomics > .te-card {
+        margin: 0px auto 10px !important;
+    }
+    .h-btn .buy-btn {
+        display: none;
+    }
+    .h-main .logo {
+        margin-bottom: -50px;
+    }
+    header {
+        padding: 8px 0px;
+    }
+    header.fixed-header .h-main .logo {
+        margin-top: 0px;
+    }
+    .h-main .logo {
+        margin: 0px;
+    }
+    .logo img {
+        max-width: 50px;
+    }
+    header.fixed-header .logo img {
+        max-width: 36px;
+    }
+    body .h-main .h-menu > .navbar {
+        top: 70px;
+        max-height: calc(100vh - 70px);
+    }
+    body header.fixed-header .h-main .h-menu > .navbar {
+        top: 56px;
+        max-height: calc(100vh - 56px);
+    }
+    .join-contract .form-control {
+        font-size: 16px;
+    }
+    .join-contract .form-group {
+        padding: 20px 130px 20px 15px;
+    }
+    .join-contract .btn.btn-primary {
+        padding: 10px 20px;
+        font-size: 15px;
+        top: 8px;
+        right: 15px;
+    }
+    .hero-media > img {
+        max-width: 300px;
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 480px){
+    .hero-media img {
+        max-width: 420px;
+    }
+    .hero-media .h-text {
+        bottom: 88px;
+        font-size: 14px;
+    }
+    .join-social > a {
+        height: 60px;
+        width: 60px;
+    }
+    .join-social > a > svg, 
+    .join-social > a > img {
+        width: 28px;
+        height: 28px;
+    }
+    .supported img {
+        max-width: 380px;
+    }
+    .supported > span > .s-text {
+        font-size: 13px;
+        max-width: 140px;
+        top: 76px;
+        left: 52px;
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 575px){
+    .page-title h2 {
+        font-size: 40px;
+    }
+    body .about {
+        background-size: cover;
+        padding: 200px 0px 40px;
+    }
+    body .about-intro .page-title h2, 
+    body .r-card h3 {
+        font-size: 26px;
+    }
+    .h-main .logo {
+        margin-bottom: 0px;
+    }
+    header {
+        padding: 10px 0px;
+    }
+    header.fixed-header .h-main .logo {
+        margin-top: 0px;
+    }
+    .logo img {
+        max-width: 48px;
+    }
+    header.fixed-header .logo img {
+        max-width: 36px;
+    }
+    body .h-main .h-menu > .navbar {
+        top: 73px;
+        max-height: calc(100vh - 73px);
+    }
+    body header.fixed-header .h-main .h-menu > .navbar {
+        top: 69px;
+        max-height: calc(100vh - 69px);
+    }
+    .responsive-btn {
+        display: none;
+    }
+    .buy-btn .btn.btn-primary {
+        padding: 14px 30px;
+    }
+    .tokenomics-main {
+        display: block !important;
+    }
+    .tokenomics-main > .l-tokenomics, .tokenomics-main > .r-tokenomics {
+        display: flex;
+        gap: 10px;
+    }
+    .l-tokenomics > .te-card, .r-tokenomics > .te-card {
+        width: 50%;
+        margin-bottom: 10px !important;
+    }
+    /*.t-content > p {
+        max-width: 150px;
+    }*/
+    .hero-media > img {
+        max-width: 320px;
+    }
+}
+@media screen and (max-width: 767px){
+    .page-background,
+    .page-paddings {
+        padding: 60px 0px;
+    }
+    .page-bg {
+        padding: 120px 0px;
+    }
+    .d-flex {
+        flex-wrap: wrap;
+    }
+    .roadmap-title {
+        display: none;
+    }
+    .main-sec {
+        padding-top: 73px;
+    }
+    .hero {
+        padding: 30px 0px 50px;
+    }
+    .hero-intro {
+        margin-top: 30px;
+    }
+    .join-contract .form-group {
+        margin-bottom: 30px;
+    }
+    .join-btn .btn.btn-primary {
+        width: auto;
+        padding: 20px 30px;
+    }
+    .join-btn {
+        margin-top: 30px;
+    }
+    .marquee .animation-i {
+        flex-wrap: nowrap;
+    }
+    .about {
+        padding: 180px 0px 0px;
+        margin-top: -50px;
+        background-size: contain;
+        background-position: top center;
+    }
+    .roadmap-right {
+        padding-left: 0px;
+    }
+    .r-card.i-card {
+        margin-left: 0px;
+    }
+    .prominent-box,
+    .about-card {
+        padding: 30px;
+    }
+    .prominent-box > h3,
+    .btn.btn-primary,
+    .r-card > ul > li > .yellow-text, 
+    .prominent-box > h3 > span {
+        font-size: 18px;
+    }
+    .about-intro .page-title h2,
+    .r-card h3 {
+        font-size: 22px;
+    }
+    .about-intro .page-title {
+        margin-bottom: 15px;
+    }
+    .r-card {
+        padding: 100px 30px 30px;
+    }
+    .te-card {
+        border-radius: 15px !important;
+        padding: 30px;
+        height: auto;
+        margin-bottom: 30px !important;
+    }
+    .i-tokenomics {
+        display: none;
+    }
+    .t-content > span {
+        font-size: 44px;
+    }
+    .team .coin img {
+        max-width: 150px;
+    }
+    .faq-media img {
+        max-width: 320px;
+        margin-bottom: 30px;
+    }
+    .m-animation::before {
+        right: 0px;
+        top: -6px;
+        width: 70%;
+    }
+    .m-animation .marquee {
+        padding: 8px 8px;
+        margin: 0px -30px;
+    }
+    .marquee .animation-i {
+        font-size: 16px;
+        gap: 22px;
+    }
+    .m-animation .marquee.revers {
+        transform: rotate(9.5deg);
+    }
+    .m-animation .marquee {
+        transform: rotate(-3deg);
+    }
+    .first-sec {
+        order: 2;
+    }
+}
+@media screen and (max-width: 991px){
+    .show-menu {
+        overflow: hidden;
+    }
+    .show-menu::before {
+        content: "";
+        height: 100%;
+        width: 100%;
+        background: rgb(255 255 255 / 80%);
+        backdrop-filter: saturate(180%) blur(10px);
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        z-index: 1;
+    }
+    .h-main .h-btn {
+        gap: 10px;
+    }
+    .navbar .navbar-collapse {
+        padding: 20px 20px;
+        display: block;
+    }
+    .h-btn > .navbar-toggler {
+        padding: 0px;
+        border: 0px;
+        outline: 0;
+        box-shadow: none;
+    }
+    .h-main .h-menu > .navbar {
+        position: fixed;
+        top: 65px;
+        left: -320px;
+        height: 100vh;
+        max-height: calc(100vh - 65px);
+        overflow-y: auto;
+        background-color: #009ee0;
+        max-width: 320px;
+        width: 320px;
+        transition: all 0.3s;
+        display: inherit;
+    }
+    .h-main .h-menu > .navbar.show {
+        left: 0px;
+    }
+    .h-menu .navbar-nav .nav-link {
+        margin: 0px 0px 20px;
+    }
+    .h-menu .navbar-nav .nav-link:last-child {
+        margin-bottom: 0px;
+    }
+    .responsive-btn {
+        margin-top: 30px;
+    }
+    .responsive-btn .btn.btn-primary {
+        padding: 15px 30px;
+        background-color: #ffc107;
+    }
+    .responsive-btn .btn.btn-primary:hover {
+        background-color: #009ee0;
+    }
+}
+@media screen and (min-width: 992px) {
+    .responsive-btn,
+    .h-main .h-btn > .navbar-toggler {
+        display: none;
+    }
+}
+@media screen and (min-width: 768px){
+    .r-map {
+        display: none;
+    }
+}
+@media screen and (max-width: 991px) and (min-width: 768px){
+    .page-title h2,
+    .about-intro .page-title h2 {
+        font-size: 38px;
+    }
+    .main-sec {
+        padding-top: 78px;
+    }
+    header {
+        padding: 10px 0px;
+    }
+    .hero-media .h-text {
+        bottom: 72px;
+        font-size: 10px;
+        max-width: 70px;
+    }
+    .buy-btn .btn.btn-primary {
+        padding: 15px 30px;
+    }
+    .h-main .logo,
+    header.fixed-header .h-main .logo {
+        margin: 0px;
+    }
+    .h-main .h-menu > .navbar {
+        top: 78px;
+        max-height: calc(100vh - 78px);
+    }
+    header.fixed-header .h-main .h-menu > .navbar {
+        top: 72px;
+        max-height: calc(100vh - 72px);
+    }
+    .responsive-btn {
+        display: none;
+    }
+    .logo img {
+        max-width: 50px;
+    }
+   .hero {
+        padding: 30px 0px 60px;
+   }
+   .join-contract .form-control {
+        font-size: 20px;
+    }
+    .join-contract .form-group {
+        padding: 28px 130px 28px 20px;
+    }
+    .join-contract .btn.btn-primary {
+        padding: 10px 15px;
+    }
+    .join-social > a {
+        height: 60px;
+        width: 60px;
+    }
+    .join-social > a > svg, 
+    .join-social > a > img {
+        height: 28px;
+        width: 28px;
+    }
+    .join-btn {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .join-btn .btn.btn-primary {
+        width: calc(50% - 9px);
+        font-size: 15px;
+    }
+    .supported img {
+        max-width: 360px;
+    }
+    .prominent-box {
+        padding: 20px;
+    }
+    .prominent-box > h3 {
+        font-size: 16px;
+    }
+    .r-card.i-card {
+        margin-left: 35px;
+    }
+    .tokenomics-main {
+        gap: 20px;
+    }
+    .tokenomics-main > div {
+        width: 50%;
+    }
+    .i-tokenomics {
+        display: none;
+    }
+    .l-tokenomics > .te-card, 
+    .r-tokenomics > .te-card {
+        margin-bottom: 20px;
+    }
+    .about {
+        margin-top: -46px;
+    }
+    .m-animation::before {
+        content: none;
+    }
+    .m-animation .marquee {
+        padding: 8px 8px;
+    }
+    .marquee .animation-i {
+        font-size: 16px;
+        gap: 22px;
+    }
+    .m-animation .marquee.revers {
+        transform: rotate(9.5deg);
+    }
+    .m-animation .marquee {
+        transform: rotate(-3deg);
+    }
+    .supported > span > .s-text {
+        font-size: 13px;
+        max-width: 140px;
+        top: 74px;
+        left: 44px;
+    }
+}
+@media screen and (max-width: 1199px) and (min-width: 992px){
+    .hero-media .h-text {
+        bottom: 98px;
+        font-size: 14px;
+    }
+    .supported > span > .s-text {
+        font-size: 16px;
+        max-width: 180px;
+        top: 92px;
+        left: 56px;
+    }
+}
+@media screen and (max-width: 1399px) and (min-width: 1200px){
+    .hero-media .h-text {
+        bottom: 118px;
+    }
+    .supported > span > .s-text {
+        top: 115px;
+        left: 92px;
+        font-size: 16px;
+        max-width: 160px;
+    }
+}
+@media screen and (max-width: 1600px) and (min-width: 992px){
+    .page-title h2,
+    .about-intro .page-title h2 {
+        font-size: 42px;
+    }
+    .hero {
+        padding: 80px 0px;
+    }
+    .h-menu .navbar-nav .nav-link {
+        font-size: 18px;
+        margin-right: 30px;
+    }
+    .join-contract .form-control {
+        font-size: 20px;
+    }
+    .join-btn {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .join-btn .btn.btn-primary {
+        width: calc(50% - 9px);
+    }
+    .join-social > a {
+        height: 70px;
+        width: 70px;
+    }
+    .join-social > a > svg, 
+    .join-social > a > img {
+        width: 34px;
+        height: 34px;
+    }
+    .prominent-box > h3 {
+        font-size: 24px;
+    }
+    .te-card {
+        padding: 24px 15px;
+    }
+}
